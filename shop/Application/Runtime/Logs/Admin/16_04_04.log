@@ -1,0 +1,30 @@
+[ 2016-04-04T19:37:28+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.004021s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 1  [ RunTime:0.000870s ]
+
+[ 2016-04-04T19:37:31+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002690s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.000523s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Demo\ww\shop\Application\Admin\Model\AttributeModel.class.php 第 30 行.
+
+[ 2016-04-04T19:37:33+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002644s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 1  [ RunTime:0.000377s ]
+
+[ 2016-04-04T20:08:14+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.003787s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.000700s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Demo\ww\shop\Application\Admin\Model\AttributeModel.class.php 第 30 行.
+

@@ -1,0 +1,31 @@
+[ 2016-04-08T10:07:59+08:00 ] ::1 /ww/shop/index.php/Admin/Brand/__Module__/brand/index/keyword?brand_name=w
+ERR: 非法操作:__Module__
+
+[ 2016-04-08T10:08:47+08:00 ] ::1 /ww/shop/index.php/Admin/Brand/keyword?brand_name=w
+ERR: 非法操作:keyword
+
+[ 2016-04-08T10:57:07+08:00 ] ::1 /ww/shop/index.php/Admin/Brand/__SLEF__/id/undefined
+ERR: 非法操作:__SLEF__
+
+[ 2016-04-08T10:58:08+08:00 ] ::1 /ww/shop/index.php/Admin/Brand/__SLEF__/id/undefined
+ERR: 非法操作:__SLEF__
+
+[ 2016-04-08T10:58:11+08:00 ] ::1 /ww/shop/index.php/Admin/Brand/__SLEF__/id/undefined
+ERR: 非法操作:__SLEF__
+
+[ 2016-04-08T10:59:06+08:00 ] ::1 /ww/shop/index.php/Admin/Brand/id/undefined
+ERR: 非法操作:id
+
+[ 2016-04-08T16:00:13+08:00 ] ::1 /ww/shop/index.php/Admin/goods.php?id=32
+ERR: 无法加载控制器:Goods.php
+
+[ 2016-04-08T16:00:58+08:00 ] ::1 /ww/shop/index.php/Admin/Goods/goods.php?act=product_list&goods_id=32
+ERR: 非法操作:goods.php
+
+[ 2016-04-08T17:09:30+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.027595s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 1  [ RunTime:0.001177s ]
+

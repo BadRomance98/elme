@@ -1,0 +1,80 @@
+	<div class="shop_hd">
+		<div class="shop_hd_topNav">
+			<div class="shop_hd_topNav_all">
+				<div class="shop_hd_topNav_all_left">
+					<p><span class="user_name">{$user.user_name}</span>
+					<a href="__MODULE__/user/login" class="<eq name='hide' value='true' >isHidden</eq>" <neq name='block' value='true'>id="block"</neq>>[登录]</a>
+					<a href="__MODULE__/user/reg" class="<eq name='hide' value='true' >isHidden</eq>" <neq name='block' value='true'>id="block"</neq>>[注册]</a></p>
+				</div>
+
+				<div class="shop_hd_topNav_all_right">
+					<ul class="topNav_quick_menu">
+						<li>
+							<div>
+								<a href="__MODULE__/cart/index/user_id/{$user.user_id}">我的购物车</a>
+							</div>
+						</li>
+
+						<li>
+							<div>
+								<a href="__MODULE__/Order/index/user_id/{$user.user_id}">我的订单</a>
+							</div>
+						</li>
+
+						<li>
+							<div>
+								<a href="__MODULE__/Address/index/user_id/{$user.user_id}">我的地址</a>
+							</div>
+						</li>						
+						<li>
+							<div>
+								<a title="退出" target="_top" href="__MODULE__/user/logout">退出</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+
+		<div class="shop_hd_header">
+			<div class="shop_hd_header_logo"><h1 class="logo"><a href="/"><img src="__PUBLIC__/images/logo.png" alt="ShopCZ" /></a><span>ShopCZ</span></h1></div>
+		</div>
+		<div class="clear"></div>
+
+		<div class="shop_hd_menu">
+			<div class="shop_hd_menu_all_category <eq name='index' value='true' >shop_hd_menu_hover </eq>" <neq name='index' value='true'>id="shop_hd_menu_all_category"</neq> ><!-- 首页去掉 id="shop_hd_menu_all_category" 加上clsss shop_hd_menu_hover -->
+				<div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a></h2><i></i></div>
+				<div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">
+					<ul class="shop_hd_menu_all_category_hd_menu clearfix">
+						<volist name="cats" id="vo" key="k">
+							<if condition = "$k lt 9">
+							<li id="cat_1" class="">
+								<h3><a href="__MODULE__/Category/index/id/{$vo.cat_id}">{$vo.cat_name}</a></h3>
+								<div id="cat_1_menu" class="cat_menu clearfix" style="">
+									<volist name="vo.child" id="vo1">
+									<dl class="clearfix">
+										<dt><a href="__MODULE__/Category/index/id/{$vo1.cat_id}">{$vo1.cat_name}</a></dt>
+										<dd>
+											<volist name="vo1.child" id="vo2">
+											<a href="__MODULE__/Category/index/id/{$vo2.cat_id}">{$vo2.cat_name}</a>
+										</volist>
+										</dd>
+									</dl> 
+									</volist>                                                     
+								</div>
+							</li>
+							</if>
+						</volist>
+					</ul>
+				</div>
+			</div>
+			<ul class="shop_hd_menu_nav">
+				<li class="current_link"><a href="__MODULE__/Index"><span>首页</span></a></li>
+			</ul>
+		</div>
+
+
+
+	

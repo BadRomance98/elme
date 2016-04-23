@@ -1,0 +1,17 @@
+[ 2016-04-06T11:30:31+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.074818s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.001368s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Demo\ww\shop\Application\Admin\Model\AttributeModel.class.php 第 30 行.
+
+[ 2016-04-06T11:30:52+08:00 ] ::1 /ww/shop/index.php/Admin/Goods/index.php?p=admin&c=goods&a=index
+ERR: 非法操作:index.php
+
+[ 2016-04-06T19:11:57+08:00 ] ::1 /ww/shop/index.php/Admin/Category/category.php?act=move&cat_id=1
+ERR: 非法操作:category.php
+
+[ 2016-04-06T19:13:47+08:00 ] ::1 /ww/shop/index.php/Admin/Index/index.php?act=clear_cache
+ERR: 非法操作:index.php
+

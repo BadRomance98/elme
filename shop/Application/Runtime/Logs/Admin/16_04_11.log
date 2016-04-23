@@ -1,0 +1,23 @@
+[ 2016-04-11T09:50:16+08:00 ] ::1 /ww/shop/index.php/Admin/Category/goods.php?act=list&cat_id=1
+ERR: 非法操作:goods.php
+
+[ 2016-04-11T10:53:47+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.003137s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.000518s ]
+
+[ 2016-04-11T13:37:53+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002843s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.000462s ]
+
+[ 2016-04-11T15:03:49+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/__SLEF__/id/3
+ERR: 非法操作:__SLEF__
+
+[ 2016-04-11T15:04:43+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/__SLEF__/id/2
+ERR: 非法操作:__SLEF__
+

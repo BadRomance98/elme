@@ -1,0 +1,14 @@
+[ 2015-04-26T10:19:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Attribute/getAttrs?type_id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.027500s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 13  [ RunTime:0.000000s ]
+
+[ 2015-04-26T10:19:41+08:00 ] 127.0.0.1 /shop/index.php/Admin/Attribute/getAttrs?type_id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 13  [ RunTime:0.002500s ]
+

@@ -1,0 +1,537 @@
+[ 2016-04-14T16:43:45+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002939s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000928s ]
+
+[ 2016-04-14T16:44:02+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002828s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000323s ]
+
+[ 2016-04-14T16:44:41+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004157s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000668s ]
+
+[ 2016-04-14T16:44:42+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003682s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000559s ]
+
+[ 2016-04-14T16:44:43+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002889s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000457s ]
+
+[ 2016-04-14T16:44:43+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003040s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001266s ]
+
+[ 2016-04-14T16:44:44+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002639s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000812s ]
+
+[ 2016-04-14T16:44:44+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002777s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000596s ]
+
+[ 2016-04-14T16:46:40+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003906s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000491s ]
+
+[ 2016-04-14T16:46:49+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002387s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000613s ]
+
+[ 2016-04-14T16:47:14+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002666s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000420s ]
+
+[ 2016-04-14T16:47:27+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003396s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002243s ]
+
+[ 2016-04-14T16:48:10+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003539s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.002876s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 1 [ RunTime:0.000492s ]
+
+[ 2016-04-14T16:48:33+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002378s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.002607s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 2 [ RunTime:0.000770s ]
+
+[ 2016-04-14T16:48:40+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003891s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.002267s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.004286s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 3 [ RunTime:0.001001s ]
+
+[ 2016-04-14T16:48:45+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003400s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003742s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 12 [ RunTime:0.000783s ]
+
+[ 2016-04-14T16:48:49+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019009s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002831s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003120s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 13 [ RunTime:0.000580s ]
+
+[ 2016-04-14T16:49:39+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003760s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003754s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 17 [ RunTime:0.001892s ]
+
+[ 2016-04-14T18:38:36+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003830s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003360s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 18 [ RunTime:0.000749s ]
+
+[ 2016-04-14T18:38:36+08:00 ] ::1 /ww/shop/index.php/Home/order/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003463s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003702s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`postscripts`,`address_id`,`order_amount`,`order_time`) VALUES (1,'',15,'4999.00',0) [ RunTime:0.000765s ]
+
+[ 2016-04-14T18:39:26+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.129131s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.004272s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 19 [ RunTime:0.001102s ]
+
+[ 2016-04-14T18:39:26+08:00 ] ::1 /ww/shop/index.php/Home/order/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002647s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003613s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`postscripts`,`address_id`,`order_amount`,`order_time`) VALUES (1,'',0,'1200.00',0) [ RunTime:0.001092s ]
+
+[ 2016-04-14T18:44:28+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005958s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.005290s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 20 [ RunTime:0.001265s ]
+
+[ 2016-04-14T18:44:28+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004416s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005411s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004627s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`postscripts`,`address_id`,`order_amount`,`order_time`) VALUES (1,'',17,'1200.00',0) [ RunTime:0.001769s ]
+
+[ 2016-04-14T18:45:01+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003613s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003902s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,14,'以纯春季嘻哈风格男衣',1,'90.00','/ww/shop',90) [ RunTime:0.001102s ]
+
+[ 2016-04-14T18:45:22+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003770s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003450s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 23 [ RunTime:0.001205s ]
+
+[ 2016-04-14T18:45:22+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004581s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003197s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`postscripts`,`address_id`,`order_amount`,`order_time`) VALUES (1,'',15,'90.00',0) [ RunTime:0.000817s ]
+
+[ 2016-04-14T18:46:25+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003755s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003956s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 23 [ RunTime:0.000974s ]
+
+[ 2016-04-14T18:46:25+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003167s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`postscripts`,`address_id`,`order_amount`,`order_time`) VALUES (1,'',15,'90.00',0) [ RunTime:0.000941s ]
+
+[ 2016-04-14T18:46:44+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003692s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.006539s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.000918s ]
+
+[ 2016-04-14T18:46:55+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003257s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003403s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`postscripts`,`address_id`,`order_amount`,`order_time`) VALUES (1,'',15,'98.00',0) [ RunTime:0.000776s ]
+
+[ 2016-04-14T18:46:55+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002518s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003620s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 24 [ RunTime:0.000688s ]
+
+[ 2016-04-14T18:47:19+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003211s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.004646s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.001208s ]
+
+[ 2016-04-14T18:47:21+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004045s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001845s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003671s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.000873s ]
+
+[ 2016-04-14T18:47:23+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003003s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.004707s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.000811s ]
+
+[ 2016-04-14T18:47:31+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002753s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.002983s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 27 [ RunTime:0.000701s ]
+
+[ 2016-04-14T18:47:31+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003372s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003402s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`postscripts`,`address_id`,`order_amount`,`order_time`) VALUES (1,'',15,'98.00',0) [ RunTime:0.001352s ]
+
+[ 2016-04-14T18:49:04+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004726s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.005367s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 25 [ RunTime:0.001937s ]
+
+[ 2016-04-14T18:50:49+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012496s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003603s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 26 [ RunTime:0.000883s ]
+
+[ 2016-04-14T18:51:21+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004384s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.004143s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.001209s ]
+
+[ 2016-04-14T18:51:23+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004602s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.004811s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.001585s ]
+
+[ 2016-04-14T18:51:24+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004327s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003838s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.000849s ]
+
+[ 2016-04-14T18:51:32+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004184s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003571s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 30 [ RunTime:0.001076s ]
+
+[ 2016-04-14T18:52:15+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003786s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003478s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 29 [ RunTime:0.000850s ]
+
+[ 2016-04-14T18:52:16+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003582s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004240s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`address_id`,`order_amount`,`order_time`) VALUES (1,15,'98.00',2016) [ RunTime:0.001058s ]
+
+[ 2016-04-14T18:53:59+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003464s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003759s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 28 [ RunTime:0.000965s ]
+
+[ 2016-04-14T18:53:59+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003529s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003655s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`address_id`,`order_amount`,`order_time`) VALUES (1,15,'98.00','2016-4-14 18:53:56') [ RunTime:0.001261s ]
+
+[ 2016-04-14T18:56:01+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003377s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003609s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.000810s ]
+
+[ 2016-04-14T18:56:04+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.005522s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.004683s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.002683s ]
+
+[ 2016-04-14T18:58:55+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.012188s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.006542s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 32 [ RunTime:0.001159s ]
+
+[ 2016-04-14T18:58:55+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003901s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.004444s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`address_id`,`order_amount`,`order_time`) VALUES (1,0,'98.00','2016-4-14 18:58:53') [ RunTime:0.001112s ]
+
+[ 2016-04-14T18:59:53+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.059434s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003184s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 31 [ RunTime:0.000984s ]
+
+[ 2016-04-14T18:59:53+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003138s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.003496s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`address_id`,`order_amount`,`order_time`) VALUES (1,0,'98.00','2016-4-14 18:59:51') [ RunTime:0.000831s ]
+
+[ 2016-04-14T19:07:10+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003620s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003159s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.000685s ]
+
+[ 2016-04-14T19:08:57+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003048s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003346s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 33 [ RunTime:0.001145s ]
+
+[ 2016-04-14T19:08:57+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003349s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.002816s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`address_id`,`order_amount`,`order_time`) VALUES (1,17,'98.00','2016-4-14 19:8:48') [ RunTime:0.000674s ]
+
+[ 2016-04-14T19:09:52+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003575s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.003197s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.003073s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 33 [ RunTime:0.000444s ]
+
+[ 2016-04-14T19:09:52+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003535s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002735s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.002938s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`address_id`,`order_amount`,`order_time`) VALUES (1,17,'98.00','2016-4-14 19:8:48') [ RunTime:0.000579s ]
+
+[ 2016-04-14T19:17:40+08:00 ] ::1 /ww/shop/index.php/Home/Address/del/15
+ERR: 非法操作:del
+
+[ 2016-04-14T19:52:31+08:00 ] ::1 /ww/shop/index.php/Home/goods/shopCar
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002363s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.004436s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.004471s ]
+SQL: INSERT INTO `cz_cart` (`user_id`,`goods_id`,`goods_name`,`sell_number`,`shop_price`,`goods_img`,`subtotal`) VALUES (1,16,'高领秋衣女',1,'98.00','/ww/shop',98) [ RunTime:0.001347s ]
+
+[ 2016-04-14T21:53:32+08:00 ] ::1 /ww/shop/index.php/Home/cart/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002540s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.002590s ]
+SQL: DELETE FROM `cz_cart` WHERE `cart_id` = 34 [ RunTime:0.000821s ]
+
+[ 2016-04-14T21:53:32+08:00 ] ::1 /ww/shop/index.php/Home/cart/submitOrder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002645s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.002706s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`address_id`,`order_amount`,`order_time`) VALUES (1,0,'98.00','2016-4-14 21:53:14') [ RunTime:0.000688s ]
+
+[ 2016-04-14T22:29:03+08:00 ] ::1 /ww/shop/index.php/Home/Index
+ERR: Think\Model:getHotGoods方法不存在！
+
+[ 2016-04-14T22:52:16+08:00 ] ::1 /ww/shop/index.php/Home/ROOT
+ERR: 无法加载控制器:ROOT
+
+[ 2016-04-14T22:52:28+08:00 ] ::1 /ww/shop/index.php/Home/ROOT.
+ERR: 无法加载控制器:ROOT
+

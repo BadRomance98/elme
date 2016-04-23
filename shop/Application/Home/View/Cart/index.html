@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>购物车</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="__PUBLIC__/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/shop_common.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/shop_header.css" type="text/css" />
+        <link rel="stylesheet" href="__PUBLIC__/css/shop_home.css" type="text/css" />
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.js" ></script>
+        <script type="text/javascript" src="__PUBLIC__/js/topNav.js" ></script>
+        <script type="text/javascript" src="__PUBLIC__/js/focus.js" ></script>
+        <script type="text/javascript" src="__PUBLIC__/js/shop_home_tab.js" ></script>
+        <script type="text/javascript" src="__PUBLIC__/js/angular.min.js" ></script>
+    <style type="text/css">
+    header{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    header strong{
+        color: #FE8502;
+    }
+    section{
+        width: 980px;
+        margin: 0 auto;
+        border: solid #FE8502 2px;
+        padding: 20px;
+    }
+    .vs-ib p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    section p span{
+        color: #FE8502;
+    }
+    section img{
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+    section .vs-ib{
+        display: inline-block;
+        vertical-align: top;
+    }
+    section .lf{
+        float: left;
+        width: 50%;
+    }
+    section p a{
+        text-align: center;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 14px;
+        background: #FE8502;
+        padding: 6px 10px;
+        margin: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    .icon{
+        width: 10px;
+        height: 10px;
+        border: solid 1px #343939;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    </style>
+</head>
+<body>
+    <include file="Public/header" />
+    <section>
+        <volist name="cart" id="vo">
+            <div class="lf">
+                <img src="{$vo.goods_img}jpg">
+                <div class="vs-ib">
+                    <p>商品编号：<span>{$vo.goods_id}</span></p>
+                    <p>商品名称：<span>{$vo.goods_name}</p>
+                    <p>商品价格：<span>{$vo.shop_price}</p>
+                    <p>商品购买数量：<span>{$vo.sell_number}</p>
+                    <p>商品总价格：<span class="subtotal">{$vo.subtotal}</p>
+                    <volist name="address" id="vo1">
+                        <p><i class="icon"><input type="hidden" value="{$vo1.address_id}"></i>
+                        {$vo1.province}{$vo1.city}{$vo1.district}{$vo1.street}<div>&nbsp&nbsp&nbsp&nbsp&nbsp电话：{$vo1.mobile}</div></p>
+                    </volist>
+                    <p><a href="__MODULE__/Order/index" onclick="deleteShopOrder()">提交订单</a></p>
+                </div>
+                <input type="hidden" value="{$vo.cart_id}" class="cart_id">      
+            </div>
+        </volist>
+        <div style="clear:both;"></div>
+    </section>
+    <script type="text/javascript">
+    var address_id = null;
+    var cart_id = $('.cart_id').val();
+    var order_amount = $('.subtotal').html();
+    var date = new Date();
+    var order_time = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()+' '+date.getHours()+':'+date.getMinutes()+':'+date.getSeconds();
+    $('.icon').click(function(){
+       $(this).css('background','#000');
+       $(this).parent().siblings('p').find('.icon').css('background','#fff');
+       address_id = $(this).children().val();
+    });
+    function deleteShopOrder(){
+    $.ajax({
+            type: "post",
+            url: "__MODULE__/cart/delete",
+            async: true,//异步or同步
+            data: {id:cart_id},
+            success: function(msg)
+            {}
+        });
+    $.ajax({
+            type: "post",
+            url: "__MODULE__/cart/submitOrder",
+            async: true,//异步or同步
+            data: {address_id:address_id,order_amount:order_amount,order_time:order_time},
+            success: function(msg)
+            {
+                alert(msg);
+            }
+        });
+    }
+    </script>
+</body>
+</html>

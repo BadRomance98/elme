@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>订单</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/shop_common.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/shop_header.css" type="text/css" />
+        <link rel="stylesheet" href="__PUBLIC__/css/shop_home.css" type="text/css" />
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.js" ></script>
+        <script type="text/javascript" src="__PUBLIC__/js/topNav.js" ></script>
+        <script type="text/javascript" src="__PUBLIC__/js/focus.js" ></script>
+        <script type="text/javascript" src="__PUBLIC__/js/shop_home_tab.js" ></script>
+    <style type="text/css">
+    header{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    header strong{
+        color: #FE8502;
+    }
+    section{
+        width: 980px;
+        margin: 0 auto;
+        border: solid #FE8502 2px;
+        padding: 20px;
+    }
+    .vs-ib p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    section p span{
+        color: #FE8502;
+    }
+    section .vs-ib{
+        display: inline-block;
+        vertical-align: top;
+    }
+    section .lf{
+        float: left;
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    section a{
+        display: block;
+        padding: 20px;
+        border: solid 2px #000;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        background: #FE8502;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <include file="Public/header" />
+    <section>
+        <volist name="order" id="vo">
+            <div class="lf">
+                <div class="vs-ib">
+                    <p>订单编号：<span>{$vo.order_id}</span></p>
+                    <p>订单人姓名：<span>{$vo.user_name}</span></p>
+                    <p>商品总额：<span>{$vo.order_amount}</p>
+                    <p>下单时间：<span>{$vo.order_time}</p>
+                </div>          
+            </div>
+        </volist>
+        <div style="clear:both;"></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,6 @@
+[ 2015-04-27T21:35:43+08:00 ] 127.0.0.1 /shop/index.php/Home/Category/index/id/26
+ERR: 无法加载控制器:Category
+
+[ 2015-04-27T21:36:13+08:00 ] 127.0.0.1 /shop/index.php/Home/Category/index/id/26
+ERR: 模板不存在:./Application/Home/View/Category/index.html
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>商品列表页</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/base.css" type="text/css" />
+	<link rel="stylesheet" href="__PUBLIC__/css/shop_common.css" type="text/css" />
+	<link rel="stylesheet" href="__PUBLIC__/css/shop_header.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/shop_list.css" type="text/css" />
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js" ></script>
+    <script type="text/javascript" src="__PUBLIC__/js/topNav.js" ></script>
+    <script type="text/javascript" src="__PUBLIC__/js/shop_list.js" ></script>
+</head>
+<body>
+	<include file="Public/header" />
+	</div>
+	<div class="clear"></div>
+	<!-- 面包屑 注意首页没有 -->
+	<div class="shop_hd_breadcrumb">
+		<strong>当前位置：</strong>
+		<span>
+			<a href="">首页</a>&nbsp;›&nbsp;
+			<volist name="parentCats" id="vo">
+				<a href="__MODULE__/Category/index/id/{$vo.cat_id}">
+					{$vo.cat_name}</a> <if condition="$i != count($parentCats)" >&nbsp;›&nbsp;</if>
+			</volist>
+		</span>
+	</div>
+	<div class="clear"></div>
+	<!-- 面包屑 End -->
+	<div class="shop_bd clearfix">
+		<div class="shop_bd_list_left clearfix">
+			<!-- 热卖推荐商品 -->
+			<div class="shop_bd_list_bk clearfix">
+				<div class="title">热卖推荐商品</div>
+				<div class="contents clearfix">
+					<ul class="clearfix">						
+						<volist name="hotGoods" id="vo">
+							<li class="clearfix">
+								<div class="goods_name"><a href="__MODULE__/Goods/index/id/{$vo.goods_id}">{$vo.goods_name}</a></div>
+								<div class="goods_pic"><span class="goods_price">{$vo.shop_price} </span><a href=""><img src="__ROOT__{$VO.goods_img}" /></a></div>
+								<div class="goods_xiaoliang">
+									<span class="goods_xiaoliang_link"><a href="__MODULE__/Goods/index/id/{$vo.goods_id}">去看看</a></span>
+									<span class="goods_xiaoliang_nums">已销售<strong>{$vo.click_count}</strong>笔</span>
+								</div>
+							</li>
+						</volist>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="shop_bd_list_bk clearfix">
+				<div class="title">浏览过的商品</div>
+				<div class="contents clearfix">
+					<ul class="clearfix">
+					<volist name="hotGoods" id="vo">
+						<li class="clearfix">
+							<div class="goods_name"><a href="__MODULE__/Goods/index/id/{$vo.goods_id}">{$vo.goods_name}</a></div>
+							<div class="goods_pic"><span class="goods_price">{$vo.shop_price} </span><a href=""><img src="__ROOT__{$VO.goods_img}" /></a></div>
+							<div class="goods_xiaoliang">
+								<span class="goods_xiaoliang_link"><a href="__MODULE__/Goods/index/id/{$vo.goods_id}">去看看</a></span>
+								<span class="goods_xiaoliang_nums">已销售<strong>{$vo.click_count}</strong>笔</span>
+							</div>
+						</li>
+					</volist>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="shop_bd_list_right clearfix">
+			<div class="sort-bar">
+				<div class="bar-l"> 
+		            <ul class="array">
+		              <li class="selected"><a title="默认排序" class="nobg" href="javascript:void(0)">默认</a></li>
+		              <li><a title="点击按销量从高到低排序" href="__MODULE__/category/index/asc/1">销量从高到低</a></li>
+		              <li><a title="点击按销量从低到高排序" href="__MODULE__/category/index/asc/2">销量从低到高</a></li>
+		              <li><a title="点击按价格从高到低排序" href="__MODULE__/category/index/asc/3">价格从高到低</a></li>
+		              <li><a title="点击按价格从高到低排序" href="__MODULE__/category/index/asc/4">价格从低到高</a></li>
+		            </ul>
+<!-- 		            <div class="prices"> <em>¥</em>
+		              <input type="text" value="" class="w30">
+		              <em>-</em>
+		              <input type="text" value="" class="w30">
+		              <input type="submit" value="确认" id="search_by_price">
+		            </div>
+ -->
+		          </div>
+			</div>
+			<div class="clear"></div>
+			<div class="shop_bd_list_content clearfix">
+				<ul>
+					<volist name="goods" id="vo">
+						<li>
+							<dl>
+								<dt><a href="__MODULE__/goods/index/id/{$vo.goods_id}/cate_id/{$vo.cat_id}"><img src="__ROOT__{$vo.goods_img}" /></a></dt>
+								<dd class="title"><a href="">{$vo.goods_name}</a></dd>
+								<dd class="content">
+									<span class="goods_jiage">￥<strong>{$vo.shop_price}</strong></span>
+									<span class="goods_chengjiao">最近成交{$vo.click_count}笔</span>
+								</dd>
+							</dl>
+						</li>					
+					</volist>
+				</ul>
+			</div>
+			<div class="clear"></div>
+            <div id="turn-page" style="float: right;">
+            	{$page}
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	<div class="shop_footer">
+        <div class="shop_footer_copy">
+            <p>版权所有 &copy; 2015-2016  王波毕业设计</p>
+        </div>
+    </div>
+</body>
+</html>

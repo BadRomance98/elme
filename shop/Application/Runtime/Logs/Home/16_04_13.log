@@ -1,0 +1,19 @@
+[ 2016-04-13T00:15:35+08:00 ] ::1 /ww/shop/index.php/Home/goods/add
+ERR: 非法操作:add
+
+[ 2016-04-13T00:17:27+08:00 ] ::1 /ww/shop/index.php/Home/goods/add
+ERR: 非法操作:add
+
+[ 2016-04-13T00:23:35+08:00 ] ::1 /ww/shop/index.php/Home/address/add
+ERR: 模板不存在:./Application/Home/View/Address/add.html
+
+[ 2016-04-13T01:24:43+08:00 ] ::1 /ww/shop/index.php/Home/address/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.002379s ]
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000441s ]
+NOTIC: [8] Undefined index: data E:\Demo\ww\shop\Application\Home\Controller\AddressController.class.php 第 13 行.
+NOTIC: [8] Undefined index: consignee E:\Demo\ww\shop\Application\Home\Controller\AddressController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.002806s ]
+

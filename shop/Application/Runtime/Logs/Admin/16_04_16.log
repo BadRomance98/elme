@@ -1,0 +1,40 @@
+[ 2016-04-16T00:14:07+08:00 ] ::1 /ww/shop/index.php/Admin/Goods/goods.php?act=edit&goods_id=32
+ERR: 非法操作:goods.php
+
+[ 2016-04-16T10:37:43+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002807s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.000509s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Demo\ww\shop\Application\Admin\Model\AttributeModel.class.php 第 30 行.
+
+[ 2016-04-16T10:37:45+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002328s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.000538s ]
+
+[ 2016-04-16T10:37:53+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002572s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 1  [ RunTime:0.000583s ]
+
+[ 2016-04-16T10:37:59+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.003625s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.000682s ]
+
+[ 2016-04-16T10:38:09+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002222s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.000364s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Demo\ww\shop\Application\Admin\Model\AttributeModel.class.php 第 30 行.
+

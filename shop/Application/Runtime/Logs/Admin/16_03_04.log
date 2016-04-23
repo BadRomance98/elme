@@ -1,0 +1,71 @@
+[ 2016-03-04T21:03:37+08:00 ] ::1 /ww/shop/index.php/Admin/Category/category.php?act=move&cat_id=1
+ERR: 非法操作:category.php
+
+[ 2016-03-04T21:09:22+08:00 ] ::1 /ww/shop/index.php/Admin/goods.php?id=32
+ERR: 无法加载控制器:Goods.php
+
+[ 2016-03-04T22:11:46+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002597s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 1  [ RunTime:0.000645s ]
+
+[ 2016-03-04T22:12:35+08:00 ] ::1 /ww/shop/index.php/Admin/Attribute/getAttrs?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.002385s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 1  [ RunTime:0.000371s ]
+
+[ 2016-03-04T22:15:56+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:15:57+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=add
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:15:57+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=delivery_list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:15:58+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=back_list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:15:59+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:15:59+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=add
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:00+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=delivery_list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:00+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:01+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=add
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:05+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:06+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=back_list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:06+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=delivery_list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:06+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=add
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:07+08:00 ] ::1 /ww/shop/index.php/Admin/Index/order.php?act=list
+ERR: 非法操作:order.php
+
+[ 2016-03-04T22:16:15+08:00 ] ::1 /ww/shop/index.php/Admin/Goods/index.php?p=admin&c=goods&a=index
+ERR: 非法操作:index.php
+
+[ 2016-03-04T22:16:28+08:00 ] ::1 /ww/shop/index.php/Admin/Goods/index.php?p=admin&c=goods&a=index
+ERR: 非法操作:index.php
+
+[ 2016-03-04T22:24:53+08:00 ] ::1 /ww/shop/index.php/Admin/Category/category.php?act=move&cat_id=1
+ERR: 非法操作:category.php
+
